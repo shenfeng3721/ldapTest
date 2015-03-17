@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true">
+	<Resource
+	name="jdbc/UserInfo" auth="Container"
+	type="javax.sql.DataSource" maxActive="100"
+	maxIdle="30" maxWait="10000"
+	username="root" password="springdb"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://10.38.148.192:3306/sp_user_info?useUnicode=true&amp;characterEncoding=UTF8"/>
+</Context>
